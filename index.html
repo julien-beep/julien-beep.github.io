@@ -2,37 +2,71 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Mon Portfolio</title>
+  <title>Portfolio - Ton Nom</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <header>
+  <!-- PRÉSENTATION -->
+  <header id="presentation">
     <h1>Ton Nom</h1>
-    <p>Développeur / Designer / Créatif</p>
+    <p>Étudiant / Développeur / Designer</p>
+    <p class="intro">
+      Courte présentation : qui tu es, ce que tu fais, ce que tu recherches.
+    </p>
   </header>
 
   <main>
-    <section>
-      <h2>Projets</h2>
+
+    <!-- PROJETS ACADÉMIQUES -->
+    <section id="academique">
+      <h2>📘 Projets académiques</h2>
+
       <div class="projet">
-        <h3>Projet 1</h3>
-        <p>Description rapide du projet.</p>
+        <h3>Projet universitaire 1</h3>
+        <p>Description du projet, technologies utilisées, objectifs.</p>
+        <a href="#">Voir le projet</a>
+      </div>
+
+      <div class="projet">
+        <h3>Projet universitaire 2</h3>
+        <p>Description du projet.</p>
+      </div>
+    </section>
+
+    <!-- PROJETS PROFESSIONNELS -->
+    <section id="professionnel">
+      <h2>💼 Projets professionnels</h2>
+
+      <div class="projet">
+        <h3>Projet client / stage</h3>
+        <p>Contexte, ton rôle, résultats.</p>
         <a href="#">Voir le projet</a>
       </div>
     </section>
 
-    <section>
-      <h2>À propos</h2>
-      <p>Quelques mots sur toi, ton parcours, ce que tu recherches.</p>
+    <!-- PROJETS PERSONNELS -->
+    <section id="personnel">
+      <h2>🚀 Projets personnels</h2>
+
+      <div class="projet">
+        <h3>Projet personnel 1</h3>
+        <p>Pourquoi tu l’as fait, ce que tu as appris.</p>
+        <a href="#">Voir le code</a>
+      </div>
+
+      <div class="projet">
+        <h3>Projet personnel 2</h3>
+        <p>Description rapide.</p>
+      </div>
     </section>
 
-    <section>
-      <h2>Contact</h2>
-      <p>Email : tonmail@email.com</p>
-    </section>
   </main>
+
+  <footer>
+    <p>📧 tonemail@email.com | GitHub | LinkedIn</p>
+  </footer>
 
 </body>
 </html>

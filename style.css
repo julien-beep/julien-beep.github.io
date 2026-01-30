@@ -1,23 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  line-height: 1.6;
+  background-color: #f5f5f5;
+  color: #333;
 }
 
+/* Présentation */
 header {
-  background: #111;
+  background-color: #111;
   color: white;
-  padding: 40px;
   text-align: center;
+  padding: 60px 20px;
 }
 
+header .intro {
+  max-width: 600px;
+  margin: 20px auto 0;
+  font-size: 1.1em;
+}
+
+/* Sections */
 main {
+  max-width: 900px;
+  margin: auto;
   padding: 20px;
 }
 
+section {
+  margin-bottom: 50px;
+}
+
+h2 {
+  border-left: 5px solid #111;
+  padding-left: 10px;
+}
+
+/* Cartes projets */
 .projet {
-  border: 1px solid #ddd;
-  padding: 15px;
-  margin-bottom: 15px;
+  background: white;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.projet a {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #111;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
 }
